@@ -13,7 +13,7 @@ namespace ADO.NETAddressBook
         {
             try
             {
-                SqlConnection Connection = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ADDRESSBOOK_SERVICES;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;");
+                SqlConnection Connection = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
                 Connection.Open();
                 SqlCommand command = new SqlCommand("Create database Addressbook_ADO;", Connection);
                 command.ExecuteNonQuery();
