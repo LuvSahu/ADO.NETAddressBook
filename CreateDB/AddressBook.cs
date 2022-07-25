@@ -15,7 +15,7 @@ namespace ADO.NETAddressBook
             {
                 SqlConnection Connection = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ADDRESSBOOK_SERVICES;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;");
                 Connection.Open();
-                SqlCommand command = new SqlCommand("Create database ADDRESSBOOK_SERVICES;", Connection);
+                SqlCommand command = new SqlCommand("Create database Addressbook_ADO;", Connection);
                 command.ExecuteNonQuery();
                 Console.WriteLine("AddressbookService Database created successfully!");
                 Connection.Close();
