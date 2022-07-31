@@ -1,0 +1,28 @@
+{
+    "AddressBook": [
+      {
+        "id": 1,
+        "first_name": "Priyanka",
+        "last_name": "Chaudhary",
+        "phonenumber":"7894563210",
+        "addressbook":"Pri",
+        "city":"Muzaffarpur",
+        "state":"Bihar",
+        "zip":"458792",
+        "email": "priyanka@gmail.com"
+      },
+      
+      {
+        "id": 2,
+        "first_name": "Luv",
+        "last_name": "Sahu",
+        "phonenumber":"9589671232",
+        "addressbook":"luv",
+        "city":"Alwar",
+        "state":"Rajasthan",
+        "zip":"301408",
+        "email": "luv@gmail.com"
+        
+      }
+    ]
+  }
